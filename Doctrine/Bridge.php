@@ -139,7 +139,7 @@ class Bridge implements BridgeInterface
                 continue;
             }
 
-            $entities = $this->getEntityManager()->getRepository($this->indexes[$index])->findBy(array('id' => $ids));
+            // $entities = $this->getEntityManager()->getRepository($this->indexes[$index])->findBy(array('id' => $ids));
 
             foreach ($ids as $id) {
                 $results['matches'][$id]['entity'] = $entities = $this->getEntityManager()->getRepository($this->indexes[$index])->find($id);
