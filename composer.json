@@ -4,7 +4,7 @@
     "type": "symfony-bundle",
     "description": "Sphinx search bundle for Symfony 2",
     "keywords": ["sphinx", "sphinxsearch", "symfony2"],
-    "homepage": "https://github.com/IAkumaI/SphinxsearchBundle",
+    "homepage": "https://github.com/XanderKon/SphinxsearchBundle",
     "license": "MIT",
     "authors": [
         {
@@ -24,7 +24,7 @@
             "IAkumaI\\SphinxsearchBundle": ""
         }
     },
-    "target-dir": "IAkumaI/SphinxsearchBundle",
+    "target-dir": "XanderKon/SphinxsearchBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "0.2-dev"
