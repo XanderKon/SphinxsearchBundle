@@ -1,5 +1,5 @@
 {
-    "name": "iakumai/sphinxsearch-bundle",
+    "name": "XanderKon/sphinxsearch-bundle",
     "type": "symfony-bundle",
     "description": "Sphinx search bundle for Symfony 2",
     "keywords": ["sphinx", "sphinxsearch", "symfony2"],
