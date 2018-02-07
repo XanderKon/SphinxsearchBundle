@@ -1,5 +1,6 @@
 {
-    "name": "XanderKon/sphinxsearch-bundle",
+    "name": "xanderkon/sphinxsearch-bundle",
+    "version": "0.25",
     "type": "symfony-bundle",
     "description": "Sphinx search bundle for Symfony 2",
     "keywords": ["sphinx", "sphinxsearch", "symfony2"],
