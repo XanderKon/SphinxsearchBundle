@@ -1,19 +1,19 @@
 services:
     # Search Engine
     iakumai.sphinxsearch.search:
-        class: %iakumai.sphinxsearch.search.class%
-        file: %iakumai.sphinxsearch.sphinx_api.file%
+        class: '%iakumai.sphinxsearch.search.class%'
+        file: '%iakumai.sphinxsearch.sphinx_api.file%'
         arguments:
-            - %iakumai.sphinxsearch.searchd.host%
-            - %iakumai.sphinxsearch.searchd.port%
-            - %iakumai.sphinxsearch.searchd.socket%
+            - '%iakumai.sphinxsearch.searchd.host%'
+            - '%iakumai.sphinxsearch.searchd.port%'
+            - '%iakumai.sphinxsearch.searchd.socket%'
         calls:
             - [setBridge, ["@iakumai.sphinxsearch.doctrine.bridge"]]
 
     # Doctrine Bridge
     iakumai.sphinxsearch.doctrine.bridge:
-        class: %iakumai.sphinxsearch.doctrine.bridge.class%
-        arguments: ["@service_container", %iakumai.sphinxsearch.doctrine.entity_manager%, %iakumai.sphinxsearch.indexes%]
+        class: '%iakumai.sphinxsearch.doctrine.bridge.class%'
+        arguments: ["@service_container", '%iakumai.sphinxsearch.doctrine.entity_manager%', '%iakumai.sphinxsearch.indexes%']
 
     # Twig extension
     iakumai.sphinxsearch.twig.extension_0:
